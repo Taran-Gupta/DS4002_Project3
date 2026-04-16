@@ -16,31 +16,33 @@ DS4002_Project2/
 ├── LICENSE.md
 │
 ├── DATA/
-│   ├── net worth by quarter.csv
-│   ├── net_worth_cleaned.csv
-│   ├── README_net_worth.txt
-│   ├── README_unemployment.txt
-│   ├── unemployment by month.csv
-│   ├── unemployment_cleaned.csv
-│   └── Project 2 - Data Appendix.pdf
+│   ├── images
+│   ├── images_augmented
+│   ├── personal images
+│   ├── processed_images
+│   ├── Data Appendix - MI3.pdf
+│   ├── cleaned_data.csv
+│   └── data.csv
+│   └── failed_downloads.csv
+│   └── fossils_with_paths.csv
 │
 ├── SCRIPTS/
-│   ├── Data Cleaning.ipynb
-│   ├── EDA_unemployment.ipynb
-│   ├── EDA_wealth_differences.ipynb
-│   ├── Predictive Analysis.ipynb
-│   └── Unemployment_and_Net_Worth_Correlation.ipynb
+│   ├── Downloading Data.ipynb
+│   ├── Model Prediction.ipynb
+│   ├── Scaling Images.ipynb
+│   ├── class_names.json
+│   └── fossil_model.h5
+│   └── fossil_model.keras
+│   └── fossil_model_weights.h5
 │
 └── OUTPUT/
-    ├── ARIMA_percent_error_prediction.png
-    ├── ARIMA_predicted_vs_actual.png
-    ├── net_worth_over_time.png
-    ├── normalized_unemployment_net_worth.png
-    ├── regression_predicted_vs_actual.png
-    ├── rolling_correlation.png
-    ├── unemployment_20-24.png
-    ├── unemployment_histograms.png
-    └── unemployment_over_time.png
+    ├── Accuracy and Loss with just head.png
+    ├── Confusion Matrix.png
+    ├── Fossil Period Histogram.png
+    ├── Fossil Resizing.png
+    ├── Per-Class Accuracy.png
+    ├── Whole model training accuracy and loss.png
+
 
 ```
 ## Section 3: Instructions for reproducing results
